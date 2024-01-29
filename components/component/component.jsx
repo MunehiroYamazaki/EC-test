@@ -13,7 +13,7 @@ export function Component() {
         <h1 className=" font-bold mb-4 text-xl md:text-4xl">KATAOMOI説明ページデモ</h1>
         <p className="mb-8">第一印象をハックする</p>
         <img src="./images/goto7540_Craft_a_hyper-realistic_image_that_perfectly_encapsula_461144e0-a90e-425b-8212-8fc407c63026.jpg" className="App-logo" alt="logo" />
-        <h2 className="text-xl md:text-3xl font-bold mb-4 mt-24">KATAOMOI名刺を使りませんか？</h2>
+        <h2 className="text-xl md:text-3xl font-bold mb-4 mt-24">KATAOMOI名刺を使いませんか？</h2>
 
         <Link href ="/item">
         <Button>商品一覧ページへ</Button>
