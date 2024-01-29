@@ -1,0 +1,39 @@
+import { Button } from "@/components/ui/button"
+import { CardContent, CardTitle, CardDescription, Card, CardHeader } from "@/components/ui/card"
+import Link from 'next/link'
+
+export default function Component() {
+  return (
+    <div className="grid md:grid-cols-2 gap-6 lg:gap-12 items-start max-w-6xl px-4 mx-auto py-28">
+      <div className="grid gap-4 md:gap-10 items-start order-2 md:order-1">
+        <img
+          alt="Smartwatch Image"
+          className="aspect-square object-cover border border-gray-200 w-full rounded-lg overflow-hidden dark:border-gray-800"
+          height={600}
+          src="./images/2oCg0XxGLvkqBPDIuOQo4CAp4dTy0FZd6-nI5GLd8RY.jpg"
+          width={600}
+        />
+      </div>
+      <div className="grid gap-4 md:gap-10 items-start order-1">
+        <h1 className="font-bold text-3xl lg:text-4xl">KATAOMOI名刺A</h1>
+        <div className="text-4xl font-bold">400円</div>
+        <p className="text-lg text-gray-500 dark:text-gray-400">ここにKATAOMOI名刺の特徴が入ります。ここにKATAOMOI名刺の特徴が入ります。ここにKATAOMOI名刺の特徴が入ります。
+        </p>
+        <h2 className="font-bold text-2xl mt-6">特徴</h2>
+        <ul className="list-disc list-inside text-lg text-gray-500 dark:text-gray-400">
+          <li>商品の特徴を入れます</li>
+          <li>商品の特徴を入れます</li>
+          <li>商品の特徴を入れます</li>
+        </ul>
+        <Link href ="https://nftticket-alpha-v1.myshopify.com/products/%E5%85%AB%E7%8E%8B%E5%AD%90%E3%83%9F%E3%83%AB%E3%82%AF">
+        <Button size="lg">購入ページへ</Button>
+        </Link>
+        <Link href ="/item">
+        <p className="font-bold text-sm mt-6">商品一覧ページに戻る</p>
+        </Link>
+        <div className="grid gap-4" />
+      </div>
+    </div>
+  )
+}
+
