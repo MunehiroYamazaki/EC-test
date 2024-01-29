@@ -141,7 +141,7 @@ export default function Component() {
             <p className="mt-4">名刺Fの説明文がここに入ります。</p>
           </CardContent>
         </Card>
-        <Link href ="page.js">
+        <Link href ="https://ec-test-six.vercel.app">
         <p className="font-bold text-sm mt-6">トップページに戻る</p>
         </Link>
       </div>
